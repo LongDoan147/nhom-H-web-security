@@ -40,7 +40,7 @@ if (!empty($_POST['submit'])) {
             <input type="hidden" name="id" value="<?php echo $id ?>">
             <div class="form-group">
                 <label for="name">Name</label>
-                <span><?php if (!empty($user[0]['name'])) echo $user[0]['name'] ?></span>
+                <span><?php if (!empty($user[0]['name'])) echo strip_tags($user[0]['name']) ?></span>
             </div>
             <div class="form-group">
                 <label for="password">Fullname</label>
